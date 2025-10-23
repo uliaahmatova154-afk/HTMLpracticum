@@ -1,0 +1,61 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+    	margin: 0;
+}
+
+header, main, footer {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 293px;
+}
+
+header .logo img {
+	width: 148px;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: circle;
+	gap: 25px;
+	text-transform: lowercase;
+}
+
+header nav ul li:first-child {
+	list-style-type: none;
+}
+
+header nav ul li a {
+	color: black;
+}
+
+a.active {
+	text-decoration: none;
+}
+
+.cover {
+	height: 757px;
+	background-image: url("flowers.jpg");
+	padding: 165px 50px 50px 50px;
+}
+
+.cover h1 span{
+	display: block;
+	text-transform: uppercase;
+	font-size: 100px;
+	color: white;
+}
+
+.cover h1 span + span {
+	text-align: center;
+}
+
+.cover h1 span + span + span{
+	text-align: right;
+}
